@@ -12,7 +12,7 @@
 	$_SESSION['success'] = "";
 
 	// connect to database
-	$db = mysqli_connect('localhost','id21095325_root','rOOttOOr@123','id21095325_users');
+	$db = mysqli_connect('localhost','root','','users');
 
 	// REGISTER USER
 	if (isset($_POST['signup'])) {
